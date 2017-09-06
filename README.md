@@ -27,11 +27,11 @@ l - for classes that set **margin-left** or **padding-left**
 
 r - for classes that set **margin-right** or **padding-right**
 
-x - for classes that set **both *-left** and ***-right**
+x - for classes that set both **-left** and **-right**
 
-y - for classes that set **both *-top** and ***-bottom
+y - for classes that set both **-top** and **-bottom**
 
-blank - for classes that set a margin or padding on all 4 sides of the element
+blank - for classes that set a margin or padding on **all 4 sides** of the element
 
 #### Where size is one of:
 
