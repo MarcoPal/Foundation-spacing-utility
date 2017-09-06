@@ -66,7 +66,7 @@ $ git clone https://github.com/MarcoPal/Foundation-spacing-utility.git
 ## Example:
 
 ```
-<div class="myclass px-2 px-large-4 py-3 mb-2 mb-large-4">
+<div class="myclass px-2 px-large-4 py-3 mb-2 mb-large-4">...</div>
 ```
 
 ## Customize:
