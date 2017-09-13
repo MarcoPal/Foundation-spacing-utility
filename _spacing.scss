@@ -17,33 +17,33 @@ $space-sizes: (
 
       @for $i from 0 to length($space-sizes) {
         &-#{$i} {
-          padding: nth($space-sizes, $i+1);
+          margin: nth($space-sizes, $i+1);
         }
 
         &t-#{$i} {
-          padding-top: nth($space-sizes, $i+1);
+          margin-top: nth($space-sizes, $i+1);
         }
 
         &r-#{$i} {
-          padding-right: nth($space-sizes, $i+1);
+          margin-right: nth($space-sizes, $i+1);
         }
 
         &b-#{$i} {
-          padding-bottom: nth($space-sizes, $i+1);
+          margin-bottom: nth($space-sizes, $i+1);
         }
 
         &l-#{$i} {
-          padding-left: nth($space-sizes, $i+1);
+          margin-left: nth($space-sizes, $i+1);
         }
 
         &x-#{$i} {
-          padding-left: nth($space-sizes, $i+1);
-          padding-right: nth($space-sizes, $i+1);
+          margin-left: nth($space-sizes, $i+1);
+          margin-right: nth($space-sizes, $i+1);
         }
 
         &y-#{$i} {
-          padding-top: nth($space-sizes, $i+1);
-          padding-bottom: nth($space-sizes, $i+1);
+          margin-top: nth($space-sizes, $i+1);
+          margin-bottom: nth($space-sizes, $i+1);
         }
       }
 
@@ -52,45 +52,45 @@ $space-sizes: (
       @for $i from 0 to length($space-sizes) {
         &-#{nth($breakpoint-classes, $j+1)}-#{$i} {
           @include breakpoint(nth($breakpoint-classes, $j+1)) {
-            padding: nth($space-sizes, $i+1);
+            margin: nth($space-sizes, $i+1);
           }
         }
 
         &t-#{nth($breakpoint-classes, $j+1)}-#{$i} {
           @include breakpoint(nth($breakpoint-classes, $j+1)) {
-            padding-top: nth($space-sizes, $i+1);
+            margin-top: nth($space-sizes, $i+1);
           }
         }
 
         &r-#{nth($breakpoint-classes, $j+1)}-#{$i} {
           @include breakpoint(nth($breakpoint-classes, $j+1)) {
-            padding-right: nth($space-sizes, $i+1);
+            margin-right: nth($space-sizes, $i+1);
           }
         }
 
         &b-#{nth($breakpoint-classes, $j+1)}-#{$i} {
           @include breakpoint(nth($breakpoint-classes, $j+1)) {
-            padding-bottom: nth($space-sizes, $i+1);
+            margin-bottom: nth($space-sizes, $i+1);
           }
         }
 
         &l-#{nth($breakpoint-classes, $j+1)}-#{$i} {
           @include breakpoint(nth($breakpoint-classes, $j+1)) {
-            padding-left: nth($space-sizes, $i+1);
+            margin-left: nth($space-sizes, $i+1);
           }
         }
 
         &x-#{nth($breakpoint-classes, $j+1)}-#{$i} {
           @include breakpoint(nth($breakpoint-classes, $j+1)) {
-            padding-left: nth($space-sizes, $i+1);
-            padding-right: nth($space-sizes, $i+1);
+            margin-left: nth($space-sizes, $i+1);
+            margin-right: nth($space-sizes, $i+1);
           }
         }
 
         &y-#{nth($breakpoint-classes, $j+1)}-#{$i} {
           @include breakpoint(nth($breakpoint-classes, $j+1)) {
-            padding-top: nth($space-sizes, $i+1);
-            padding-bottom: nth($space-sizes, $i+1);
+            margin-top: nth($space-sizes, $i+1);
+            margin-bottom: nth($space-sizes, $i+1);
           }
         }
       }
